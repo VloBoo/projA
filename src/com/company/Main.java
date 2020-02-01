@@ -13,7 +13,7 @@ public class Main {
             Class.forName("com.mysql.cj.jdbc.Driver").getDeclaredConstructor().newInstance();
             try (Connection conn = DriverManager.getConnection(url, username, password)){
 
-                System.out.println("rjhjxt gjrf");
+                System.out.println("2 pyt 2 pyt 2 pyt");
             }
         }
         catch(Exception ex){
@@ -21,7 +21,6 @@ public class Main {
             System.out.println(ex);
         }
 
-        System.out.println("U dont see1 there");
     }
 }
 
