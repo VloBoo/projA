@@ -20,7 +20,7 @@ public class Main {
             System.out.println("Connection failed...");
             System.out.println(ex);
         }
-        System.out.println("U dont see there");
+
     }
 }
 
