@@ -13,11 +13,12 @@ public class Main {
             Class.forName("com.mysql.cj.jdbc.Driver").getDeclaredConstructor().newInstance();
             try (Connection conn = DriverManager.getConnection(url, username, password)){
 
-                System.out.println("Connection to Store DB succesfull!");
+                System.out.println("2 pyt 2 pyt 2 pyt");
             }
         }
         catch(Exception ex){
             System.out.println("Connection failed...");
+
             System.out.println(ex);
         }
 
